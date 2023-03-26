@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" lang="he" dir="rtl" class='scroll-smooth'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Michael Radvogin Real Estate</title>
+    <script defer src="/__/firebase/9.18.0/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.18.0/firebase-performance-compat.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script>
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      const firebaseConfig = {
+        apiKey: "AIzaSyA86qhYrvmupMihzNwEBesqQHPgPz2OnT4",
+        authDomain: "radvogin-75f22.firebaseapp.com",
+        projectId: "radvogin-75f22",
+        storageBucket: "radvogin-75f22.appspot.com",
+        messagingSenderId: "638030876236",
+        appId: "1:638030876236:web:bd4879c5fb7e7a3493eee9",
+        measurementId: "G-0PZE2EN5YN"
+      };
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      
+    </script>
+  </head>
+  <body>
+    <style>html, body, #root { height: 100%; }</style>
+    <div id="root"></div>
+  </body>
+</html>
