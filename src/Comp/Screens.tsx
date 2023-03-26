@@ -20,6 +20,7 @@ const Screens = () => {
           next = document.querySelector(`[data-index='${nextIndex}']`);
           current instanceof HTMLElement && (current.dataset.status = 'active');
           next instanceof HTMLElement && (next.dataset.status = 'before');
+          // eslint-disable-next-line
 },[isDark, isEnglish]);
 
 const goRight = () => {
